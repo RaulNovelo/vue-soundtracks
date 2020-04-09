@@ -24,6 +24,15 @@
         </a>
       </p>
     </div>
+    <div class="columns is-multiline">
+      <div
+        v-for="track in tracks"
+        :key="track.id"
+        class="column is-one-quarters"
+      >
+        <track-detail :track="track"></track-detail>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -32,17 +41,21 @@ import { searchTrack } from '@/api/tracks'
 export default {
   data () {
     return {
-      searchQuery: '',
+      searchQuery: 'rock',
       tracks: []
     }
   },
+  // lifecycle hook
+  created () {
+    this.search()
+  },
+  components: { TrackDetail: () => import('./TrackDetail') },
   methods: {
     search () {
-      searchTrack(this.searchQuery)
-        .then(res => {
-          console.log(res.data)
-          this.tracks = res.data.tracks
-        })
+      searchTrack(this.searchQuery).then(res => {
+        console.log(res.data)
+        this.tracks = res.data.tracks.items
+      })
     }
   }
 }
