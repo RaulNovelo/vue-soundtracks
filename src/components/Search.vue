@@ -24,6 +24,11 @@
         </a>
       </p>
     </div>
+    <p>
+      <!-- <small>{{ searchMessage }}</small><br> -->
+      <small>{{ results | toLocaleString }}</small>
+    </p>
+    <br>
     <div class="columns is-multiline">
       <div
         v-for="track in tracks"
@@ -42,18 +47,26 @@ export default {
   data () {
     return {
       searchQuery: 'rock',
-      tracks: []
+      tracks: [],
+      results: 0
     }
   },
   // lifecycle hook
   created () {
     this.search()
   },
+  // local filter
+  filters: {
+    toLocaleString (results) {
+      return `${results.toLocaleString()} results`
+    }
+  },
   components: { TrackDetail: () => import('./TrackDetail') },
   methods: {
     search () {
       searchTrack(this.searchQuery).then(res => {
         console.log(res.data)
+        this.results = res.data.tracks.total
         this.tracks = res.data.tracks.items
       })
     }
