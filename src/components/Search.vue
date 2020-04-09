@@ -35,7 +35,7 @@
         :key="track.id"
         class="column is-one-quarters"
       >
-        <track-detail :track="track"></track-detail>
+        <track-detail v-blur="track.preview_url" :track="track"></track-detail>
       </div>
     </div>
   </section>

@@ -18,7 +18,7 @@
           >
           -
           <a class="subtitle is-6">{{ track.artists[0].name }}</a>
-          <p class="subtitle is-6">{{ track.duration_ms }}</p>
+          <p class="subtitle is-6">{{ track.duration_ms | msToMm }}</p>
         </div>
       </div>
     </div>
