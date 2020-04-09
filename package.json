@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "publish": "npm run build && node publish.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -31,6 +32,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-buefy": "^0.3.7",
