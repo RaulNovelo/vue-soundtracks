@@ -31,7 +31,7 @@
          <span class="icon">
          <i class="fab fa-spotify"></i>
          </span>
-         <span>Go to Spotify</span>
+         <span>Play on Spotify</span>
          </a>
       </footer>
    </div>
