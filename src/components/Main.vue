@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="navbar is-right is-fixed-top has-shadow"
+      class="navbar is-right"
       role="navigation"
       aria-label="main navigation"
     >
@@ -28,7 +28,7 @@
     <section class="hero is-success is-medium">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title">Vue Soundtrack App</h1>
+          <h1 class="title">Vue Soundtrack</h1>
           <h2 class="subtitle">Canciones que están Vue-nísimas!!</h2>
         </div>
       </div>
