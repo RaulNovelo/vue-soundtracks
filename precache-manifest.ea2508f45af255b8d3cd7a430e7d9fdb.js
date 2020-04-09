@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "072efb68e1b1090e4929",
+    "revision": "6ecf661fd32150b3b678",
     "url": "/vue-soundtracks/css/app.8b7cda92.css"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-soundtracks/img/logos_adc.ea0b726c.png"
   },
   {
-    "revision": "256e39b8f021ce6736c0c03bcbc9bf35",
+    "revision": "aa59ca1a1b7ed8c9a411b8a70b82ba7f",
     "url": "/vue-soundtracks/index.html"
   },
   {
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-soundtracks/js/about.fed5365d.js"
   },
   {
-    "revision": "072efb68e1b1090e4929",
-    "url": "/vue-soundtracks/js/app.240687ef.js"
+    "revision": "6ecf661fd32150b3b678",
+    "url": "/vue-soundtracks/js/app.41d26198.js"
   },
   {
-    "revision": "de642107a53d19fe0ab5",
-    "url": "/vue-soundtracks/js/chunk-2d207f22.4e24c07e.js"
+    "revision": "1ba72fdf1ae1732abe15",
+    "url": "/vue-soundtracks/js/chunk-2d207f22.8acfdf02.js"
   },
   {
-    "revision": "e02b1ea2cf06d9601a72",
-    "url": "/vue-soundtracks/js/chunk-4b94ef39.08dd38b9.js"
+    "revision": "b1e66ee75a8adf09d6ed",
+    "url": "/vue-soundtracks/js/chunk-4b94ef39.b945084a.js"
   },
   {
-    "revision": "72c79a10569aa18c1f87",
-    "url": "/vue-soundtracks/js/chunk-vendors.75167251.js"
+    "revision": "c14b7d7a6be5d875bae4",
+    "url": "/vue-soundtracks/js/chunk-vendors.12dacc3f.js"
   },
   {
     "revision": "ae8bebe1a17296991a124b2fec56c423",
