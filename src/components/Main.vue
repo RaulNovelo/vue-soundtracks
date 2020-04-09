@@ -30,6 +30,7 @@
         <div class="container has-text-centered">
           <h1 class="title">Vue Soundtrack</h1>
           <h2 class="subtitle">Canciones que están Vue-nísimas!!</h2>
+          <Player />
         </div>
       </div>
     </section>
@@ -50,7 +51,8 @@
 export default {
   name: 'HelloWorld',
   components: {
-    Search: () => import('@/components/Search')
+    Search: () => import('@/components/Search'),
+    Player: () => import('@/components/Player')
   }
 }
 </script>
